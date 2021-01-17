@@ -1,5 +1,5 @@
 import React from "react";
-import TeatreText from "./components/TeatreText";
+import TeatreText from "./components/TeatreText.js";
 
 export default () => {
   return (

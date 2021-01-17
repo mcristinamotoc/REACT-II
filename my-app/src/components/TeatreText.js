@@ -1,18 +1,29 @@
 import React from "react";
 import Teatre from "../data/teatre.json";
+import styled from "styled-components";
+
+const P = styled.h2`
+  font-size: 1em;
+  color: palevioletred;
+`;
+
+const StyleDiv = styled.section`
+  padding: 4em;
+  background: papayawhip;
+`;
 
 export default () => {
     return (
-      <div>
+      <StyleDiv>
 
         {Teatre.map((item, index) => {
           return (
             <div>
-              <p>{item}</p>
+              <P>{item}</P>
             </div>
           );
         })}
         
-      </div>
+      </StyleDiv>
     );
   };
