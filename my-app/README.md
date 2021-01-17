@@ -1,70 +1,56 @@
-# Getting Started with Create React App
+# REACT-II
+## Entrega web textos de teatre
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+En aquest lliurament construirem una web interactiva per a aprendre textos de teatre. Aplicarem les tècniques fonamentals per aplicar estils a la web i afegirem accions perquè l'usuari pugui interactuar amb la nostra aplicació.
 
-In the project directory, you can run:
+#Nivell 1
+## Exercici 1
 
-### `npm start`
+De manera anàloga al que vam veure a la unitat 6, realitzar una aplicació que llegeixi un fitxer json amb els textos d’una obra teatral i mostri cadascun dels textos en pantalla.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Utilitzarem un component anomenat Línia per a mostrar cadascuna de les línies de text.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Aquest serà el fitxer JSON que recorrerem:
 
-### `npm test`
+[
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+ "Hola Romeo.", 
 
-### `npm run build`
+"Hola Julieta", 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+"T'estimo, Romeo", 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+"I jo a tu Julieta", 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+"Escapem-nos a Mèxic", 
 
-### `npm run eject`
+"Millor no, no li caus bé a la meva família i si seguim endavant amb el nostre amor, aquesta història acabarà malament", 
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+"Doncs vaja" 
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+]
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+L’exercici hauria de quedar així:
 
-## Learn More
+![1](https://user-images.githubusercontent.com/67639391/104747461-da83c100-5750-11eb-8e21-eda5f4718ebe.jpeg)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# Nivell 2
+## Exercici 2
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Maquetar l’aplicació utilitzant styled-components.
 
-### Code Splitting
+# Nivell 3
+## Exercici 3
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+En aquest pas mostrarem només una línia en lloc de totes les de l’aplicació.
 
-### Analyzing the Bundle Size
+Afegirem els botons d’avançar i retrocedir que ens permetran anar avançant o retrocedint entre les línies de l’aplicació per a mostrar només una de cada vegada.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+![3](https://user-images.githubusercontent.com/67639391/104747465-dbb4ee00-5750-11eb-98c7-70e8499645c1.jpeg)
 
-### Making a Progressive Web App
+## Exercici 4
+Mostrarem totes les línies de l’aplicació però ressaltarem només una de cada vegada, que anirà canviant a mesura que premem els botons d’avançar o retrocedir.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![4](https://user-images.githubusercontent.com/67639391/104747477-de174800-5750-11eb-99cf-160dd628335e.jpeg)

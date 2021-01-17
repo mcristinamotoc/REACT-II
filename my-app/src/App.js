@@ -1,14 +1,10 @@
-import Teatre from "./teatre.json";
+import React from "react";
+import TeatreText from "./components/TeatreText";
+
 export default () => {
   return (
     <div>
-      {Teatre.map((item, index) => {
-        return (
-          <div>
-            <p>{item}</p>
-          </div>
-        );
-      })}
+    <TeatreText />
     </div>
   );
 };
