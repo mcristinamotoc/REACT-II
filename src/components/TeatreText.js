@@ -33,6 +33,13 @@ const P = styled.h2`
   margin: 2rem;
 `;
 
+// const Paragraph=styled.h2`
+//   font-size: 1.5em;
+//   color: palevioletred;
+//   padding: 1rem;
+//   margin: 2rem;
+// `
+
 //Class Component
 class TeatreText extends Component {
   state = {
@@ -42,7 +49,7 @@ class TeatreText extends Component {
     };
   
 
-  // Add onclick functionality to buttons next and previous 
+  // Add onclick functionality to buttons next and previous
 
   increment = () => {
     this.setState({
@@ -57,7 +64,9 @@ class TeatreText extends Component {
       teatreLine: this.state.linesJson[this.state.currentLine-2],
     });
   };
-
+ 
+  
+ 
   render() {
     return (
       <div>
@@ -65,10 +74,21 @@ class TeatreText extends Component {
           <Button onClick={this.decrement}>Anterior</Button>
           <Button onClick={this.increment}>Següent</Button>
         </ButtonDiv>
-
+        
         <div>
           <P>{this.state.teatreLine}</P>
         </div>
+
+        {/* <Paragraph>
+            {LineTeatre.map((item) => {
+        return (
+          <div>
+           {item} 
+          </div>
+        );
+      })} 
+        </Paragraph> */}
+      
       </div>
     );
   }
