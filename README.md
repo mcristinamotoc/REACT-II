@@ -4,7 +4,7 @@
 
 En aquest lliurament construirem una web interactiva per a aprendre textos de teatre. Aplicarem les tècniques fonamentals per aplicar estils a la web i afegirem accions perquè l'usuari pugui interactuar amb la nostra aplicació.
 
-#Nivell 1
+# Nivell 1
 ## Exercici 1
 
 De manera anàloga al que vam veure a la unitat 6, realitzar una aplicació que llegeixi un fitxer json amb els textos d’una obra teatral i mostri cadascun dels textos en pantalla.
